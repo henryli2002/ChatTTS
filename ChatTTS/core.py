@@ -12,6 +12,8 @@ from .utils.gpu_utils import select_device
 from .utils.infer_utils import count_invalid_characters, detect_language, apply_character_map, apply_half2full_map
 from .utils.io_utils import get_latest_modified_file
 from .infer.api import refine_text, infer_code
+from nemo_text_processing.text_normalization.normalize import Normalizer
+
 
 from huggingface_hub import snapshot_download
 
